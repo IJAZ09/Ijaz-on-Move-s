@@ -17,6 +17,18 @@
     
     <!-- Added loogo as favicon -->
     <link rel="shortcut icon" href="images/Imgs.jpg" type="image/x-icon">
+    <!-- For blinking the socials icon on our team section -->
+    <style>
+      @keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+      }
+
+      .blinking{
+          animation: blink 1.4s infinite;
+      }
+  </style>
     
 </head>
 <body class="body">
@@ -93,11 +105,18 @@
      <!-- created div for explore destination-->
      <div class="destinations">
       <h2 class="destination-title ">Explore Our Destinations</h2>
-      
       <p class="destination-description">
         Embark on a journey to some of the most beautiful places around the globe. From scenic landscapes to vibrant cities, there's a destination for everyone.
-        Explore our distinations page for more information.
-      </p> </div>
+        Explore our distinations page for more information.  <br> <h5>explore our favaourite destination listed below on destination page <br>
+        </h5> </p></div><div> 
+                <ol>
+                  <li>Morocco</li>
+                  <li>Maldives</li>
+                  <li>Africa</li>
+                  <li>United State of America</li>
+                </ol></div>
+                
+       
       <!-- used grids to display images and text layout for responsive distinations -->
       <div class="container">
         <div class="row g-4">
@@ -221,9 +240,9 @@
                 <img style="border-radius: 5%;" src="images/ijaz.jpg"  alt="person image" height="350" width="270">
                 <ul>
                   
-                <li><a href="https://www.facebook.com/" target="_blank"> <img src="images/icons8-facebook-36.png" alt="facebook logo"></a></li>
-                <li><a href="https://www.instagram.com/accounts/login/" target="_blank"> <img src="images/icons8-instagram-36.png" alt="instagram logo"></a></li>
-                <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"> <img src="images/icons8-twitter-36.png" alt="twitter logo"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" class="blinking"> <img src="images/icons8-facebook-36.png" alt="facebook logo"></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" target="_blank" class="blinking"> <img src="images/icons8-instagram-36.png" alt="instagram logo"></a></li>
+                <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank" class="blinking"> <img src="images/icons8-twitter-36.png" alt="twitter logo"></a></li>
                 </ul>
               </div>
               <h2>IJAZ UL HAQ</h2>
@@ -235,9 +254,9 @@
               <div class="image-box">
                 <img style="border-radius: 5%;" src="images/ahsan.jpg"  alt="person image" height="350"  width="270">
                 <ul>
-                <li> <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt="facebook icon"></a></li>
-                <li><a href="https://www.instagram.com/accounts/login/" target="_blank"> <img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
-                <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"> <img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
+                <li> <a href="https://www.facebook.com/" target="_blank" class="blinking"><img src="images/icons8-facebook-36.png" alt="facebook icon"></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" target="_blank" class="blinking"> <img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
+                <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank" class="blinking"> <img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
                 </ul>
               </div>
               <h2>AHSAN</h2>
@@ -245,13 +264,13 @@
               <P>"Bringing destinations to life, one breathtaking photo at a time"</P>
             </div>
             <!-- tony shah traveller planner div in our team section -->
-            <div class="col-12 col-sm-6 col-md-4 profile text-center">
+            <div class="col-12 col-sm-6 col-md-4 profile text-center ">
               <div class="image-box">
                 <img style="border-radius: 5%;" src="images/man.jpg"  alt="person image" height="350"  width="270">
                 <ul>
-                <li> <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt=" facebook icon"></a></li>
-                <li> <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
-                <li> <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
+                <li> <a href="https://www.facebook.com/" target="_blank" class="blinking"><img src="images/icons8-facebook-36.png" alt=" facebook icon"></a></li>
+                <li> <a href="https://www.instagram.com/accounts/login/" target="_blank" class="blinking"><img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
+                <li> <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank" class="blinking"><img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
                 </ul>
               </div>
               <h2>TONY SHAH</h2>
@@ -263,9 +282,9 @@
               <div class="image-box">
                 <img style="border-radius: 5%;" src="images/OIP.jpg"  alt="person image" height="350"  width="270">
                 <ul>
-                <li> <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt="facebook icon"></a></li>
-                <li> <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="images/icons8-instagram-36.png" alt="istagram icon"></a></li>
-                <li> <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
+                <li> <a href="https://www.facebook.com/" target="_blank" class="blinking"><img src="images/icons8-facebook-36.png" alt="facebook icon"></a></li>
+                <li> <a href="https://www.instagram.com/accounts/login/" target="_blank" class="blinking"><img src="images/icons8-instagram-36.png" alt="istagram icon"></a></li>
+                <li> <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank" class="blinking"><img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
                 </ul>
               </div>
               <h2>MALIK SB</h2>
@@ -304,8 +323,8 @@
     <div class="col-12 col-md-6 " style="float: right;"> follow us on our social for latest updates and travel plans <br> <br>
       <ul class="remove-dot-inline">
       <li><a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt="facebook icon"></a></li>
-      <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
-      <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"> <img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
+      <li><a href="https://www.instagram.com/accounts/login/" target="_blank" ><img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
+      <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank" > <img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
       </ul>
 
       

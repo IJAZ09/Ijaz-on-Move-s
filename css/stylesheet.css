@@ -129,12 +129,11 @@ h2{
   margin: 0;
   padding: 2px 0;
   position: absolute;
-  z-index: 1;
   bottom: 0;
   display: block;
   left: 50%;
   transform: translate(-50%);
-  opacity: 0;
+  
 }
 /* Following class display the icons in image box in one line and gives the border to icons  */
 .image-box ul li {
@@ -294,7 +293,13 @@ iframe{
 .accordion{
   background-color: #2c3233;
 }
- 
+ol{
+  list-style-type: auto;
+  padding: 0;
+  margin-left: 45%;
+
+
+}
 
 
 
